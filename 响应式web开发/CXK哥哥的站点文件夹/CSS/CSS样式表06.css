@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+.all{
+	width:210px;
+	height:265px;
+	border:1px solid #E1E1E1;
+	margin:50px auto;
+	text-align:center;
+	}
+.header{
+	font-size:18px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px dashed #E1E1E1;
+	}	
+.text p{
+	font-size:14px;
+	color:#CCC;
+	height:24px;
+	line-height:24px;
+	}

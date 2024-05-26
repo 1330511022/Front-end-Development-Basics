@@ -1,0 +1,37 @@
+html{
+	height: 100%;
+}
+body{
+	background-image: linear-gradient(to bottom,#66FFCC 0%, #66FFFF 120%);
+}
+.container{
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 720px;
+	overflow: hidden;
+}
+.container p{
+	height: 80px;
+	margin: 30px 10px;
+	overflow: hidden;
+	word-wrap: break-word;
+	line-height: 1.5;
+}
+.container span{
+	text-decoration: none;
+	color: white;
+	position: relative;
+	left: 150px;
+	font-size: 14px;
+}
+.item{
+	width: 200px;
+	height: 200px;
+	line-height: 30px;
+	box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+	float: left;
+	margin: 10px 20px;
+	border-bottom-left-radius: 20px 500px;
+	border-bottom-right-radius: 600px 30px;
+	border-top-right-radius: 5px 100px;
+}

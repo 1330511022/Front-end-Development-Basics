@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+.f{
+	height:400px;
+	width:400px;
+	background-image:linear-gradient(180deg,#936,#FFF,#909);
+	margin:20px auto;
+	position:relative;
+	border: 10px solid #FFF;
+	}
+.one{
+	height: 290px;
+	width: 290px;
+	background-image:linear-gradient(140deg,#939,#C06);
+	border-radius: 30px;
+	margin:auto;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+.two{
+	width: 130px;
+	height: 90px;
+	border: 30px solid #000000;
+	border-radius: 25px;
+	background-image: linear-gradient(70deg,#FC9,#F9C);
+	margin:auto;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+.img{
+	width:44px;
+	height:44px;
+	background-image:url(../TuPian/2.png);
+	background-color:#FFF;
+	border-radius:50%;
+	margin:auto;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	}
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

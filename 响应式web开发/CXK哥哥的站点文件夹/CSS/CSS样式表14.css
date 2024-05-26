@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li{ padding:0; margin:0; list-style:none;}
+boby{ font-size:18px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+ul{
+	width:200px;
+	height:270px;
+	margin:20px;
+	border:3px solid #613e72;
+	padding:10px;	
+}
+li{
+	width:142px;
+	height:40px;
+	line-height:40px;
+	background:url(../TuPian/5/clock.png) no-repeat left center;
+	padding-left:40px;
+	margin:0 auto 5px;
+	color:#613e72;
+}
+.item{
+	background:#613e72 url(file:///C|/Users/dell/Desktop/CXK%E5%93%A5%E5%93%A5%E7%9A%84%E7%AB%99%E7%82%B9%E6%96%87%E4%BB%B6%E5%A4%B9/TuPian/5/icon.png) no-repeat 5px center;
+	color:#fff;
+}
+.back{
+	background:url(../TuPian/5/back.png) no-repeat 5px center;
+}

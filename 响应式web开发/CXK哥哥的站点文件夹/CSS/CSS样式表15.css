@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,ul,li,img,p{ padding:0; margin:0; list-style:none; boeder:0;}
+body{ font-size:14px; font-family:"Arial Black", Gadget, sans-serif; color:#fff;}
+.all{
+	width:952px;
+	height:175px;
+	margin:50px auto;
+	padding:0 14px;
+	background:#f6f3e9;
+	border:1px solid #ccc;
+}
+.txt{
+	height:50px;
+	line-height:50px;
+	color:#a84848;
+}
+.txt h2{
+	width:175px;
+	padding-left:31px;
+	font-size:16px;
+	background:url(../TuPian/images/iconh.png) no-repeat left center;
+	float:left;
+}
+.txt a{
+	display:inline-block;
+	width:60px;
+	padding-left:25px;
+	float:right;
+	font-weight:bold;
+	font-size:14px;
+}
+.txt a:link,.txt a:visited{
+	color:#a84848;
+	text-decoration:none;
+	background:url(../TuPian/images/play1.png) no-repeat left center;
+}
+.txt a:hover{
+	color:#000;
+	background:url(../TuPian/images/play2.png) no-repeat left center;
+}
+.con li{
+	width:148px;
+	height:105px;
+	float:left;
+	padding:20px 0 0 90px;
+}
+.radio{ background:#52a6b6 url(../TuPian/images/icon1.png) no-repeat 15px 15px;}
+.radio:hover{ background:#313131 url(../TuPian/images/icon5.png) no-repeat 15px 15px;}
+.song{ background:#55b9b6  url(../TuPian/images/icon2.png) no-repeat 15px 15px;}
+.song:hover{ background:#313131 url(../TuPian/images/icon6.png) no-repeat 15px 15px;}
+.album{ background:#55ba7c url(../TuPian/images/icon3.png) no-repeat 15px 15px;}
+.album:hover{ background:#313131 url(../TuPian/images/icon7.png) no-repeat 15px 15px;}
+.mv{ background:#a16580 url(../TuPian/images/icon4.png) no-repeat 15px 15px;}
+.mv:hover{ background:#313131 url(../TuPian/images/icon8.png) no-repeat 15px 15px;}
+.radio h2,.song h2,.album h2,.mv h2{ font-size:44px;}
+.radio p,.song p,.album p,.mv p{ line-height:22px;}
+.radio a:link,.radio a:visited,.song a:link,.song a:visited,.album a:link,album a:visited,.mv a:link,.mv a:visited{
+	color:#fff;
+	text-decoration:none;
+}

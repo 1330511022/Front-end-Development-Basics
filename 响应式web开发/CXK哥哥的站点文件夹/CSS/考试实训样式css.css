@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,ul,li,img,p{
+	padding: 0;
+	margin: 0;
+	list-style: 200;
+	border: 0;
+}
+body{font-size:14px; font-family:"Aria","微软雅黑"; color:#FFF}
+.all{
+	width:920px;
+	height:175px;
+	margin:50px auto;
+	padding:0 14px;
+	background:#F6F3E9;
+	border:1px solid #CCC;
+}
+.txt{
+	height:50px;
+	line-height:50px;
+	color:#A84848;
+}
+.txt h2{
+	width:175px;
+	padding-left:32px;
+	font-size:16px;
+	background: url(../TuPian/images/iconh.png) no-repeat left center;
+	float:left;
+}
+.txt a{
+	display:inline-block;
+	width:60px;
+	padding-left:25px;
+	float:right;
+	font-weight:bold;
+	font-size:14px;
+}
+.txt a:link, .txt a:visited{
+	color:#A84848;
+	text-decoration:none;
+	background: url(../TuPian/images/play1.png) no-repeat left center;
+}
+.txt a:hover{
+	color:#000;
+	background: url(../TuPian/images/play2.png) no-repeat left center;
+}
+.con li{
+	width:140px;
+	height:105px;
+	float:left;
+	padding:20px 0 0 90px;
+}
+.radio{background:#52A6B6 url(../TuPian/images/icon1.png)/*icon1*/ no-repeat 15px 15px;}
+.radio:hover{ background:#313131 url(../TuPian/images/icon5.png)/*icon5*/ no-repeat 15px 15px;}
+.song{ background:#55B9B6 url(../TuPian/images/icon2.png)/*icon2*/ no-repeat 15px 15px;}
+.song:hover{ background:#313131 url(../TuPian/images/icon6.png)/*icon6*/ no-repeat 15px 15px;}
+.album{ background:#55BA7C url(../TuPian/images/icon3.png)/*icon3*/ no-repeat 15px 15px;}
+.album:hover{ background:#313131 url(../TuPian/images/icon7.png)/*icon7*/ no-repeat 15px 15px;}
+.mv{ background:#A16580 url(../TuPian/images/icon4.png)/*icon4*/ no-repeat 15px 15px;}
+.mv:hover{ background:#31313 url(../TuPian/images/icon8.png)/*icon8*/ no-repeat 15px 15px;}
+.radio h2,.song h2,.album h2,.mv h2{ font-size:44px;}
+.radio p,.song p,.album p,.mv p{ line-height:22px;}
+.radio   a:link,.radio   a:visited,.song   a:link,.song   a:visited,.album   a:link,.album   a:visited,.mv   a:link,.mv   a:visited{
+	color:#FFF;
+	text-decoration:none;
+}
+.b1{
+	width:171px;
+	height:299px;
+	background: url(../%E5%AE%9E%E8%AE%AD15/image/bg.jpg) no-repeat;
+	padding-top:190px;
+	text-align:center;
+	color:#fff;
+	line-height:40px;
+	float:left;
+	margin-left:45px;
+	border-bottom:1px dotted #fff;
+	transform: translate(0,-190px);
+}
+.b2{
+	width: 171px;
+	height: 299px;
+	background: url(../%E5%AE%9E%E8%AE%AD15/image/bg.jpg) no-repeat;
+	padding-top:190px;
+	color:#fff;
+	line-height:40px;
+	text-align:center;
+	float:right;
+	margin-left:45px;
+	border-bottom:1px dotted #fff;
+	transform: translate(0,-190px);

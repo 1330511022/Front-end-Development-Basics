@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+.box{
+	width:604px;
+	height:454px;
+	margin:0 auto;
+	border:5px solid #aaa;
+	border-radius:30px;
+}
+.one{
+	width:604px;
+	height:227px;
+	background-image:url(../%E5%9B%BE%E7%89%87/01.jpg) , url(../%E5%9B%BE%E7%89%87/02.jpg) , url(../%E5%9B%BE%E7%89%87/03.jpg);
+	background-repeat:no-repeat;
+	background-position:left,center, right;
+	border-radius:0 0 30px 30px;
+}
+.two{
+	width:604px;
+	height:227px;
+	background-image:url(../%E5%9B%BE%E7%89%87/04.jpg) , url(../%E5%9B%BE%E7%89%87/05.jpg) , url(../%E5%9B%BE%E7%89%87/06.jpg);
+	background-repeat:no-repeat;
+	background-position:left, center, right;
+	border-radius:0 0 30px 30px;
+}
